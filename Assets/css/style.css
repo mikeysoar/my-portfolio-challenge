@@ -1,3 +1,42 @@
+:root {
 
+}
 
-:root 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: khaki;
+    background-position: 80%;
+    background-size: cover;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0,0,0 0.5);
+}
+
+header nav ul li a:hover {
+
+}
