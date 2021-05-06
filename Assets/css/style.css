@@ -1,34 +1,50 @@
-:root {
-
-}
-
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;    
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-
+    color: khaki;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    padding: 20px 35px;
+    padding: 0;
+    background-color: green;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: khaki;
-    background-position: 80%;
-    background-size: cover;
+    flex-wrap: wrap; 
     position: -webkit-sticky;
     position: sticky;
+    top: 0;
+    width: 100%;    
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 24px;
+    color: hotpink;
+
+}
+
+header a {
+    text-decoration: none;
+    color: hotpink;
+
+}
+
+header nav {
+    margin: 7px 0;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
@@ -38,5 +54,36 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+    background-color: lightcoral;
+    color: red;
+    border-radius: 15px;
+    text-shadow: none;
+}
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h5 {
+    color: red;
+    font-size: 30px;
+    margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
 }
