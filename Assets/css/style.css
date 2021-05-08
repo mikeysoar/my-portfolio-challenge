@@ -1,6 +1,8 @@
 :root {
-    --main-color: #b22222;
+    --main-color: #66cdaa;
     --secondary-color: lightblue;
+    --third-color: #6b8e23;
+    --first-color: #483D8B;
 }
 
 * {
@@ -10,14 +12,14 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #b22222;
+    color: var(--first-color);
 }
 
 header {
     padding: 10px;
     border: 1px solid var(--secondary-color);
     border-radius: 10px;
-    background-color:#daa520;
+    background-color: var(--third-color);
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -104,15 +106,16 @@ header nav ul li a:hover {
     height: 150px;
     padding: 10px;
     width: 100%;
-    line-height: 1.5vw;  
+    line-height: 1.5vw;
+  
+
 }
 
 .about-me h2 {
-    display: flex;
-    align-self: flex-end;
-    text-align: right;
-   
-
+    display: flex;    
+    text-align: right;    
+    padding: 15px;
+    
 
 }
 
@@ -123,7 +126,9 @@ header nav ul li a:hover {
 }
 
 .about-me p {
-    margin-right: 26%;
+    margin-right: 70px;
+    border-left: 3px solid var(--first-color);
+    padding-left: 20px;
 
 }
 
@@ -203,7 +208,7 @@ header nav ul li a:hover {
 footer {
     margin: 0;
     padding: 40px 35px;
-    background-color:#daa520;
+    background-color: var(--third-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -212,7 +217,7 @@ footer {
 }
 
 footer h5 {
-    color: red;
+    color: var(--main-color);
     font-size: 30px;
     margin: 0;
 }
