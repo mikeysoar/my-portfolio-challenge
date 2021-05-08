@@ -101,11 +101,30 @@ header nav ul li a:hover {
 .about-me {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    height: 150px;
     padding: 10px;
-    border: 2px solid var(--secondary-color);
     width: 100%;
-    border-radius: 10px;
+    line-height: 1.5vw;  
+}
+
+.about-me h2 {
+    display: flex;
+    align-self: flex-end;
+    text-align: right;
+   
+
+
+}
+
+.main {
+    margin-left: 15%;
+  
+
+}
+
+.about-me p {
+    margin-right: 26%;
+
 }
 
 #work nav ul li a:hover {
