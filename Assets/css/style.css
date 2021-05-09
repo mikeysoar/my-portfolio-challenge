@@ -7,7 +7,7 @@
 
 * {
     box-sizing: border-box;    
-    margin: 10px;
+    margin: 5px;
 }
 
 body {
@@ -96,8 +96,7 @@ header nav ul li a:hover {
     font-size: 26px;
     background-color: var(--secondary-color);
     padding: 5px;
-    width: 550px;
-   
+    width: 550px;   
 }
 
 .about-me {
@@ -107,119 +106,139 @@ header nav ul li a:hover {
     padding: 10px;
     width: 100%;
     line-height: 1.5vw;
-  
-
 }
 
 .about-me h2 {
     display: flex;    
-    text-align: right;    
-    padding: 15px;
-    
-
-}
-
-.main {
-    margin-left: 15%;
-  
+    text-align: right;
+    margin-left: 270px;    
+    padding: 10px;    
 
 }
 
 .about-me p {
     margin-right: 70px;
     border-left: 3px solid var(--first-color);
-    padding-left: 20px;
-
+    padding-left: 30px;
 }
 
-#work nav ul li a:hover {
-    background-color: var(--secondary-color);    
-    border-radius: 15px;
-    text-shadow: none;
-    padding: 5px;
+.work {
+    width: 100%;
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work h2 {        
+    margin-left: 15%;    
+    padding-right: 10px;
+}
+
+.work nav ul li a {
+    background-color: Var(--secondary-color);
     width: 100px;
-    display: flex;
-}
-
-.first-image {
-    width: 80%;
     border-radius: 10px;
-    border: 2px solid var(--secondary-color);
-    font-size: 20px;
-    min-height: 400px;
-    margin-top: 10px;
-    margin-left: 20%;
-    margin-right: 10px;
-    background-image: url("../images/hero-bg.jpg");
-    background-size: cover;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    align-self: flex-end;
 }
 
-
+.work nav ul li a:hover {
+    /* background-color: var(--secondary-color);     */
+    border-radius: 10px;
+    /* padding: 5px; */
+    width: 100px;
+   
+}
 
 .flex-container {
-    align-items: stretch;
-    margin-left: 20%;
-    margin-right: 0;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;    
+    /* padding-left: 20px; */
+    list-style-type: none;
+    margin-left: 20%;
+    border-left: 3px solid var(--first-color);
+    padding-left: 40px;
 }
 
-.flex-item:nth-child(1) {
+.first-image {   
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;   
+    list-style-type: none;
+    width: 100%;
+    height: 400px;
+    padding-left: 0;
+    margin-bottom: 10px;
+      
+}
+
+.flex-item1 {
     border: 2px solid var(--secondary-color);
     border-radius: 10px;   
     width: 45%;
-    margin: 0 10px 10px 0;
-    min-height: 250px;
+    height: 250px;
     background-image: url("../images/search-engine-optimization.jpg");
     background-size: cover; 
+    margin-bottom: 10px;
 }
 
-.flex-item:nth-child(2) {
+.flex-item2 {
     border: 2px solid var(--secondary-color);
     border-radius: 10px;   
-    width: 45%;
-    margin: 0 0 10px 10px;
-    min-height: 250px;
+    width: 45%;    
+    height: 250px;
     background-image: url("../images/20190610_145931.jpg");
-    background-size: cover;    
+    background-size: cover; 
+    margin-bottom: 10px;   
 }
 
-.flex-item:nth-child(3) {
-    border: 2px solid var(--secondary-color);
-    border-radius: 10px;   
-    width: 45%;
-    margin: 0 10px 10px 0;
-    min-height: 250px;
+.flex-item3 {
     background-image: url("../images/20190610_145918.jpg");
     background-size: cover;
-}
-
-.flex-item:nth-child(4) {
     border: 2px solid var(--secondary-color);
     border-radius: 10px;   
-    width: 45%;
-    margin: 0 0 10px 10px;
+    width:45%;    
+    height: 250px;
+    
+}
+
+.flex-item4 {
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;   
+    width: 45%;    
     min-height: 250ox;
     background-image: url("../images/IMG_0334.JPG");
     background-size: cover;
 }
 
-footer {
-    margin: 0;
-    padding: 40px 35px;
-    background-color: var(--third-color);
+.contact-me {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100%;
-    
+    margin: 10px;
 }
 
-footer h5 {
-    color: var(--main-color);
-    font-size: 30px;
-    margin: 0;
+.contact-me h2 {
+    display: flex;   
+    text-align: right;    
+    padding: 10px;
+    margin-left: 100px;
+    border-right: 3px solid var(--first-color);
+}
+
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration-line: underline;
+    font-size: 20px;   
 }
 
 @media screen and (max-width: 980px) {
@@ -229,9 +248,24 @@ footer h5 {
         position: relative;
     }
 
-
     header h1 {
         width: 100%;
         text-align: center;
     }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-me {
+        text-align: center;        
+    }
+}
+
+@media  and (max-width; 768PX) {
+    
+
+    
 }
