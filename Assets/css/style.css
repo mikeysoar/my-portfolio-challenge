@@ -26,8 +26,7 @@ header {
     flex-wrap: wrap;
     position: sticky;
     width: 100%;
-    align-items: center;
-      
+    align-items: center;      
 }
 
 header h1 {
@@ -38,14 +37,11 @@ header h1 {
     background-color: var(--secondary-color);
     width: auto;
     padding: 5px;
-
-
 }
 
 header a {
     text-decoration: none;
     color: var(--main-color);
-
 }
 
 header nav {
@@ -83,20 +79,29 @@ header nav ul li a:hover {
     margin: o;
     padding: 0;
     border: 2 px, solid;
-    height: 600px;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-self: flex-end;
-    
+    height: 600px;    
 }
 
-.subtitle h3 {  
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+   
+}
+
+.portrait img {
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);    
+}
+
+.portrait h3 {  
     font-size: 26px;
     background-color: var(--secondary-color);
     padding: 5px;
-    width: 550px;   
+    margin-top: 65%;
+    width: 550px; 
 }
 
 .about-me {
@@ -122,11 +127,18 @@ header nav ul li a:hover {
     padding-left: 30px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
 .work {
     width: 100%;
     /* display: flex; */
-    justify-content: space-between;
-    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
 }
 
 .work h2 {        
@@ -134,47 +146,45 @@ header nav ul li a:hover {
     padding-right: 10px;
 }
 
-.work nav ul li a {
+.work nav ul li a:hover {
+    background-color: var(--main-color);    
+    border-radius: 10px;
+    /* padding: 5px; */
+    width: 100px;   
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+    /* padding-left: 20px; */
+    list-style-type: none;
+    /* margin-left: 20%; */
+    border-left: 3px solid var(--first-color);
+    padding-left: 40px;
+}
+
+.flex-container li a {
     background-color: Var(--secondary-color);
     width: 100px;
     border-radius: 10px;
     padding: 5px;
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    flex-direction: column;
-    align-self: flex-end;
-}
-
-.work nav ul li a:hover {
-    /* background-color: var(--secondary-color);     */
-    border-radius: 10px;
-    /* padding: 5px; */
-    width: 100px;
-   
-}
-
-.flex-container {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;    
-    /* padding-left: 20px; */
-    list-style-type: none;
-    margin-left: 20%;
-    border-left: 3px solid var(--first-color);
-    padding-left: 40px;
+    flex-direction: column;    
 }
 
 .first-image {   
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;   
     list-style-type: none;
-    width: 100%;
+    width: 80%;
     height: 400px;
     padding-left: 0;
-    margin-bottom: 10px;
-      
+    margin-bottom: 10px;      
 }
 
 .flex-item1 {
@@ -264,8 +274,7 @@ header nav ul li a:hover {
     }
 }
 
-@media  and (max-width; 768PX) {
+/* @media  and (max-width; 768PX) { */
     
 
     
-}
