@@ -9,6 +9,8 @@ I have put together a few examples of the work that I have accomplished so far, 
 * Flexbox items
 
 ## Screenshots
+![screenshot2_portfolio](https://user-images.githubusercontent.com/81787981/117607056-6ebacf00-b118-11eb-95a8-c85a00cd7bc9.PNG)
+
 
 
 ## Website
