@@ -10,7 +10,7 @@ I have put together a few examples of the work that I have accomplished so far, 
 
 ## Screenshots
     ![Portfolio screenshot1](https://C:\Users\Michael\Desktop\Bootcamp\Virtual Classes\Assignments\my-portfolio-challenge\assets\images\screenshot1_portfolio.PNG)
-![Porfolio screenshot2](https;//C:\Users\Michael\Desktop\Bootcamp\Virtual Classes\Assignments\my-portfolio-challenge\assets\images\screenshot1_portfolio.PNG)
+![Porfolio screenshot2]()
 
 
 ## Website
