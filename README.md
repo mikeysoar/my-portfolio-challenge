@@ -12,7 +12,7 @@ I have put together a few examples of the work that I have accomplished so far, 
 ![Portfolio screenshot1](C:\Users\Michael\Desktop\Bootcamp\Virtual Classes\Assignments\my-portfolio-challenge\assets\images\screenshot1_portfolio.PNG)
 
 
-C:\Users\Michael\Desktop\Bootcamp\Virtual Classes\Assignments\my-portfolio-challenge\assets\images\screenshot2_portfolio.PNG
+`C:\Users\Michael\Desktop\Bootcamp\Virtual Classes\Assignments\my-portfolio-challenge\assets\images\screenshot2_portfolio.PNG`
 
 ## Website
 
