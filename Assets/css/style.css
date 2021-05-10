@@ -1,4 +1,4 @@
-:root {
+    :root {
     --main-color: #66cdaa;
     --secondary-color: lightblue;
     --third-color: #6b8e23;
@@ -6,7 +6,7 @@
 }
 
 * {
-    box-sizing: border-box;    
+    box-sizing: border-box;
     margin: 5px;
 }
 
@@ -26,7 +26,7 @@ header {
     flex-wrap: wrap;
     position: sticky;
     width: 100%;
-    align-items: center;      
+    align-items: center;
 }
 
 header h1 {
@@ -60,7 +60,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0,0,0 0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0 0.5);
 }
 
 header nav ul li a:hover {
@@ -69,7 +69,10 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+
 /* my subtitle section */
+
 .subtitle {
     border: 1px solid var(--secondary-color);
     border-radius: 10px;
@@ -79,7 +82,7 @@ header nav ul li a:hover {
     margin: o;
     padding: 0;
     border: 2 px, solid;
-    height: 600px;    
+    height: 600px;
 }
 
 .subtitle {
@@ -87,23 +90,25 @@ header nav ul li a:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-   
 }
 
 .portrait img {
     height: 150px;
     border-radius: 50%;
-    border: 2px solid var(--main-color);    
+    border: 2px solid var(--main-color);
 }
 
-.portrait h3 {  
+.portrait h3 {
     font-size: 26px;
     background-color: var(--secondary-color);
     padding: 5px;
     margin-top: 65%;
-    width: 550px; 
+    width: 550px;
 }
+
+
 /* about me section */
+
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -114,11 +119,10 @@ header nav ul li a:hover {
 }
 
 .about-me h2 {
-    display: flex;    
+    display: flex;
     text-align: right;
-    margin-left: 270px;    
-    padding: 10px;    
-
+    margin-left: 270px;
+    padding: 10px;
 }
 
 .about-me p {
@@ -127,18 +131,20 @@ header nav ul li a:hover {
     padding-left: 30px;
 }
 
+
 /* work section */
+
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    width: 100%;    
+    width: 100%;
 }
 
 .work {
     width: 20%;
-    display: flex;  
+    display: flex;
     flex-grow: 1;
 }
 
@@ -148,16 +154,16 @@ header nav ul li a:hover {
 }
 
 .work nav ul li a:hover {
-    background-color: var(--main-color);    
-    border-radius: 10px;    
-    width: 100px;   
+    background-color: var(--main-color);
+    border-radius: 10px;
+    width: 100px;
 }
 
 .flex-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     list-style-type: none;
     margin-left: 15%;
     margin-right: 20px;
@@ -177,64 +183,65 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
-.flex-item-1 {   
+.flex-item-1 {
     background-image: url("../images/hero-bg.jpg");
-    background-size: cover;   
+    background-size: cover;
     list-style-type: none;
     width: 80%;
     height: 400px;
     padding-left: 0;
     margin-bottom: 10px;
-    flex-grow: 1;    
+    flex-grow: 1;
 }
 
 .flex-item-2 {
     border: 2px solid var(--secondary-color);
-    border-radius: 10px;   
+    border-radius: 10px;
     width: 40%;
     height: 250px;
     background-image: url("../images/search-engine-optimization.jpg");
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 10px;
     flex-grow: 1
 }
 
 .flex-item-3 {
     border: 2px solid var(--secondary-color);
-    border-radius: 10px;   
-    width: 40%;    
+    border-radius: 10px;
+    width: 40%;
     height: 250px;
     background-image: url("../images/20190610_145931.jpg");
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 10px;
-    flex-grow: 1   
+    flex-grow: 1
 }
 
 .flex-item-4 {
     background-image: url("../images/20190610_145918.jpg");
     background-size: cover;
     border: 2px solid var(--secondary-color);
-    border-radius: 10px;   
-    width: 40%;    
+    border-radius: 10px;
+    width: 40%;
     height: 250px;
     flex-grow: 1
-    
 }
 
 .flex-item-5 {
     border: 2px solid var(--secondary-color);
-    border-radius: 10px;   
-    width: 40%;    
+    border-radius: 10px;
+    width: 40%;
     min-height: 250ox;
     background-image: url("../images/IMG_0379.JPG");
     background-size: cover;
     flex-grow: 1
 }
 
+
 /* contact me section */
+
 .contact-me {
     display: flex;
     justify-content: space-evenly;
@@ -243,8 +250,8 @@ header nav ul li a:hover {
 }
 
 .contact-me h2 {
-    display: flex;   
-    text-align: right;    
+    display: flex;
+    text-align: right;
     padding: 10px;
     margin-left: 140px;
     border-right: 3px solid var(--first-color);
@@ -257,33 +264,81 @@ header nav ul li a:hover {
     align-items: center;
     list-style: none;
     text-decoration-line: underline;
-    font-size: 20px;   
+    font-size: 20px;
 }
+
+
 /* media queries section */
+
 @media screen and (max-width: 980px) {
+    body {
+        flex: 1 100%;
+    }
     header {
-        padding-bottom: 0;
+        flex: 1 100%;
         justify-content: center;
         position: relative;
     }
-
     header h1 {
         width: 100%;
         text-align: center;
     }
-
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
+    header nav {
+        flex: 1 100%;
     }
-
+    header nav ul {
+        justify-content: center;
+        position: relative;
+    }
+    /* my subtitle section */
+    .subtitle {
+        justify-content: center;
+        position: relative;
+    }
+    .subtitle {
+        justify-content: center;
+        position: relative;
+    }
+    .portrait img {
+        position: relative;
+    }
+    .portrait h3 {
+        flex: 1 100%;
+    }
+    /* about me section */
+    .about-me {
+        flex: 1 100%;
+    }
+    .about-me h2 {
+        flex: 1 100%;
+    }
+    .about-me p {
+        flex: 1 100%;
+    }
+    /* work section */
+    .container {
+        flex: 1 100%;
+    }
+    .work {
+        flex: 1 100%;
+    }
+    .flex-container {
+        flex: 1 100%;
+    }
+    .flex-container li a {
+        flex: 1 100%;
+    }
+    /* contact me section */
     .contact-me {
-        text-align: center;        
+        flex: 1 100%;
+    }
+    .contact-me h2 {
+        flex: 1 100%;
+    }
+    .contact-me ul {
+        flex: 1 100%;
     }
 }
 
-/* @media  and (max-width; 768PX) { */
-    
-
-    
+@media and (max-width;
+768PX) {
