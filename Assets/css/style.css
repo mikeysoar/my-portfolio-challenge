@@ -69,7 +69,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
-
+/* my subtitle section */
 .subtitle {
     border: 1px solid var(--secondary-color);
     border-radius: 10px;
@@ -103,7 +103,7 @@ header nav ul li a:hover {
     margin-top: 65%;
     width: 550px; 
 }
-
+/* about me section */
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -127,29 +127,29 @@ header nav ul li a:hover {
     padding-left: 30px;
 }
 
+/* work section */
 .container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;    
 }
 
 .work {
-    width: 100%;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap; */
+    width: 20%;
+    display: flex;  
+    flex-grow: 1;
 }
 
-.work h2 {        
-    margin-left: 15%;    
-    padding-right: 10px;
+.work nav {
+    width: 80%;
+    flex-grow: 1;
 }
 
 .work nav ul li a:hover {
     background-color: var(--main-color);    
-    border-radius: 10px;
-    /* padding: 5px; */
+    border-radius: 10px;    
     width: 100px;   
 }
 
@@ -158,11 +158,14 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;    
-    /* padding-left: 20px; */
     list-style-type: none;
-    /* margin-left: 20%; */
+    margin-left: 15%;
+    margin-right: 20px;
     border-left: 3px solid var(--first-color);
-    padding-left: 40px;
+    padding-right: 10px;
+    padding-left: 50px;
+    flex-grow: 1;
+    margin-right: 0;
 }
 
 .flex-container li a {
@@ -177,55 +180,61 @@ header nav ul li a:hover {
     flex-direction: column;    
 }
 
-.first-image {   
+.flex-item-1 {   
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;   
     list-style-type: none;
     width: 80%;
     height: 400px;
     padding-left: 0;
-    margin-bottom: 10px;      
+    margin-bottom: 10px;
+    flex-grow: 1;    
 }
 
-.flex-item1 {
+.flex-item-2 {
     border: 2px solid var(--secondary-color);
     border-radius: 10px;   
-    width: 45%;
+    width: 40%;
     height: 250px;
     background-image: url("../images/search-engine-optimization.jpg");
     background-size: cover; 
     margin-bottom: 10px;
+    flex-grow: 1
 }
 
-.flex-item2 {
+.flex-item-3 {
     border: 2px solid var(--secondary-color);
     border-radius: 10px;   
-    width: 45%;    
+    width: 40%;    
     height: 250px;
     background-image: url("../images/20190610_145931.jpg");
     background-size: cover; 
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
+    flex-grow: 1   
 }
 
-.flex-item3 {
+.flex-item-4 {
     background-image: url("../images/20190610_145918.jpg");
     background-size: cover;
     border: 2px solid var(--secondary-color);
     border-radius: 10px;   
-    width:45%;    
+    width: 40%;    
     height: 250px;
+    flex-grow: 1
     
 }
 
-.flex-item4 {
+.flex-item-5 {
     border: 2px solid var(--secondary-color);
     border-radius: 10px;   
-    width: 45%;    
+    width: 40%;    
     min-height: 250ox;
-    background-image: url("../images/IMG_0334.JPG");
+    background-image: url("../images/IMG_0379.JPG");
     background-size: cover;
+    flex-grow: 1
 }
 
+/* contact me section */
 .contact-me {
     display: flex;
     justify-content: space-evenly;
@@ -237,7 +246,7 @@ header nav ul li a:hover {
     display: flex;   
     text-align: right;    
     padding: 10px;
-    margin-left: 100px;
+    margin-left: 140px;
     border-right: 3px solid var(--first-color);
 }
 
@@ -250,7 +259,7 @@ header nav ul li a:hover {
     text-decoration-line: underline;
     font-size: 20px;   
 }
-
+/* media queries section */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
