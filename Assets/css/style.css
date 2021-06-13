@@ -181,7 +181,7 @@
     }
     
     .flex-item-1 {
-        background-image: url("../images/hero-bg.jpg");
+        background-image: url("../images/project-1\ screenshot.PNG");
         background-size: cover;
         list-style-type: none;
         width: 80%;
@@ -207,7 +207,7 @@
         border-radius: 10px;
         width: 40%;
         height: 250px;
-        background-image: url("../images/20190610_145931.jpg");
+        background-image: url("../images/hero-bg.jpg");
         background-size: cover;
         margin-bottom: 10px;
         flex-grow: 1
